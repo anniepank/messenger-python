@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,19 @@
   },
   "homepage": "https://github.com/anniepank/messenger-python#readme",
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "to-string-loader": "^1.1.5",
+    "vue-loader": "^15.4.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
   }
 }
